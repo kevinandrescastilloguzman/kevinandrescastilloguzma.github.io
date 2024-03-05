@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding:0;
+}
+body{
+    background-color:#D9D9D9;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: #BDBEBF;
+    -webkit-box-shadow: 0px 0px 36px 12px rgba(0,0,0,0.56);
+    -moz-box-shadow: 0px 0px 36px 12px rgba(0,0,0,0.56);
+    box-shadow: 0px 0px 36px 12px rgba(0,0,0,0.56);
+    margin-bottom: 60px;
+}
+.menu{
+    display: none;
+    width: 80px;
+}
+.nav-izquierda ul,
+.nav-derecha ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+
+}
+.nav-izquierda{
+    display: flex;
+}
+.nav-izquierda li {
+    
+    margin-left: 40px;
+}
+.nav-izquierda ul {
+    margin-left: 50px;
+
+}
+.nav-derecha{
+    display: flex;
+    align-items: center;
+}
+
+.nav-izquierda ul li a,
+.nav-derecha ul li a{
+    text-decoration: none;
+    border: 1px solid #BDBEBF;
+    padding: 10px;
+    border-radius: 8px;
+    color:black;
+}
+.nav-izquierda ul li a:hover,
+.nav-derecha ul li a:hover{
+    border: 1px solid yellow;
+    color: yellow;
+    
+}
+
+.logo{
+    width: 100px;
+    height: 100px;
+    margin-left: 100px;
+}
+.usuario{
+    width: 50px;
+    height: 50px;
+    margin-right: 40px;
+}
+.carro{
+    width: 30px;
+    height: 30px;
+    margin-right: 60px;
+    border-radius: 50%;
+    padding: 10px;
+}
+.carro:hover{
+    background: yellow;
+}
+@media (max-width:970px){
+
+.menu{
+    display: block;
+    width: 80px;
+}
+.nav-izquierda ul{
+    display: none;
+}
+.nav-derecha ul{
+    display: none;
+}
+.cards-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 146px);
+}
+.product-card{
+    width: 140px;
+}
+}
+.cards-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 276px);
+    gap: 26px;
+}
+.section-s{
+    margin: 56px;
+    
+}
+.product-card{
+    border: 2px solid #d9d9d9;
+    background-color: white;
+    width: 240px;
+    padding: 18px;
+    border-radius: 8px;
+}
+.product-info{
+    padding-top: 6px;
+    border-top: 1px solid #BDBEBF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.product-card:hover{
+    border: 2px solid yellow;
+}
+.carrito{
+    width: 26px;
+    height: 26px;
+    margin: 0;
+    border-radius: 50%;
+    padding: 8px;
+    border: 1px solid #BDBEBF;
+}
+.img-produc{
+    width: 240px;
+    height: 240px;
+    border-radius: 8px;
+}
+.carrito:hover{
+    background-color: yellow;
+    opacity: 1;
+}
+.imgh{
+    width: 30px;
+    height: 30px;
+    margin-right: 40px;
+    padding: 6px;
+    border-radius: 30%;
+}
+.imgh:hover{
+    background-color: yellow;
+}
+.pie-paguina{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    background-color: #BDBEBF;
+    -webkit-box-shadow: 0px 0px 36px 12px rgba(0,0,0,0.56);
+    -moz-box-shadow: 0px 0px 36px 12px rgba(0,0,0,0.56);
+    box-shadow: 0px 0px 36px 12px rgba(0,0,0,0.56);
+    width: 100%;
+}
